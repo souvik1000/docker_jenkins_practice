@@ -9,7 +9,7 @@ pipeline {
  		}
  		stage("Unit test") {
  			steps {
- 				sh "python myapptest.py"
+ 				sh "python file_for_jenkins.py"
  			}
  		}
  	}
